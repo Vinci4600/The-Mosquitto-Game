@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".HinweisActivity">
+
+    <!-- TITEL -->
+    <TextView
+        android:id="@+id/titleHinweis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hinweis zum Spiel:"
+        android:textColor="#E6D750"
+        android:textSize="32sp"
+        android:rotationX="39"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- HINWEIS TEXT -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Achtung, Mückenjäger! Dieses Spiel kann zu plötzlichen Aggressionen gegen fliegende Nervensägel führen. Bitte nicht mit echten Mücken verwechseln – hier gelten nur virtuelle Flügel-Opfer!Vorsicht: Übermäßiges Fangen könnte dazu führen, dass du mehr Spaß hast, als du dir eingestehen willst. Spiel also verantwortungsvoll, sonst explodiert dein Bildschirm vor lauter Mückenwut!"
+        android:textColor="#E6D750"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/titleHinweis"
+        app:layout_constraintBottom_toTopOf="@id/btnback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- BUTTON -->
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintBottom_toTopOf="@id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- FOOTER -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OneShot Team©"
+        android:textColor="#E6D750"
+        app:layout_constraintTop_toBottomOf="@id/btnback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
