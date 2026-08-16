@@ -18,7 +18,7 @@ Erste Erfahrungen mit Android Studios machen
 
 ## Voraussetzung:
 - Installiertes Android Studio
-- Genügend RAM zum Starten des Virtuellen Handy minimal 16 GB RAM oder mehr
+- Genügend RAM zum Starten des virtuellen Handy minimal 16 GB RAM oder mehr
 - Android Handy für die APK Version
 
 ### Option 2 Direkt auf dem Handy Installieren
@@ -26,7 +26,7 @@ Erste Erfahrungen mit Android Studios machen
 2. Die heruntergeladene APK auf dem Android-Handy öffnen.
 3. Falls erforderlich, die Installation aus dieser Quelle erlauben.
 4. Die APK installieren.
-5. Das The Mosquitto Game öffnen und ausprobieren.
+5. Das The Mosquitto-Game öffnen und ausprobieren.
 ## So sieht es aus
 
 <img width="494" height="979" alt="image" src="https://github.com/user-attachments/assets/e993112e-c027-499f-835f-0fd7952c5630" />
