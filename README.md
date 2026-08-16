@@ -7,7 +7,7 @@ The Mosquitto Game ist ein einfaches Mückenfangspiel, das mit Android Studio en
 
 Erste Erfahrungen mit Android Studios machen
 
-## Ausführung des Game
+## Ausführung des Games
 
 ### Option 1 Git Clone oder Zip Datei Herunterladen
 1. Git Projekt Herunterladen oder Klonen
